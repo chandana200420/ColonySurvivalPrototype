@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         PopulationConfig population =
-            JsonLoader.Load<PopulationConfig>("population.json");
+            JsonLoader.Load<PopulationConfig>("Population.json");
 
         ConsumptionConfig consumption =
             JsonLoader.Load<ConsumptionConfig>("consumption.json");
